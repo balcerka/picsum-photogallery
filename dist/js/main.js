@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 function fetchPhotos(data) {
 
-    photos = data;
+    photos = data
 
     displayPhotos();
     showNextBtn();

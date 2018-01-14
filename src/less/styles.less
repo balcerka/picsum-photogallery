@@ -1,9 +1,22 @@
+// VARIABLES
+
+@basic-font: 'Nunito', sans-serif;
+@headers-font: 'Poiret One', cursive;
+@basic-bg-color: #f1f1f1;
+@basic-font-color: #696969;
+
+
 body, html {
-    font-family: Arial, sans-serif;
-    color: dimgray;
+    font-family: @basic-font;
+    color: @basic-font-color;
 }
 
 header {
+
+    h1 {
+        font-family: @headers-font;
+    }
+
     h1, p {
         margin-left: 3rem;
     }
@@ -22,19 +35,19 @@ header {
         height: 380px;
         padding: 10px;
         box-sizing: border-box;
-        background-color: #f1f1f1;
+        background-color: @basic-bg-color;
         justify-content: center;
 
         a {
             text-decoration: none;
-            color: gray;
+            color: #808080;
             font-size: 1.2rem;
             font-weight: 400;
             padding: 0;
             margin: 0;
 
             &:hover {
-                color: dimgray;
+                color: @basic-font-color;
             }
         }
     }
@@ -43,7 +56,7 @@ header {
 .next-btn {
     padding: 10px 20px;
     color: #fff;
-    background-color: darkorange;
+    background-color: #FF8C00;
     font-size: 1.2rem;
     border-radius: 5px;
     margin: 2% 2% 2% 88%;
@@ -53,7 +66,7 @@ header {
     justify-content: right;
 
     &:hover {
-        background-color: chocolate;
+        background-color: #D2691E;
         transition: all 0.4s ease;
     }
 }

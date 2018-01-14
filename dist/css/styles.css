@@ -1,7 +1,10 @@
 body,
 html {
-  font-family: Arial, sans-serif;
-  color: dimgray;
+  font-family: 'Nunito', sans-serif;
+  color: #696969;
+}
+header h1 {
+  font-family: 'Poiret One', cursive;
 }
 header h1,
 header p {
@@ -25,19 +28,19 @@ header p {
 }
 .container .photo a {
   text-decoration: none;
-  color: gray;
+  color: #808080;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 0;
   margin: 0;
 }
 .container .photo a:hover {
-  color: dimgray;
+  color: #696969;
 }
 .next-btn {
   padding: 10px 20px;
   color: #fff;
-  background-color: darkorange;
+  background-color: #FF8C00;
   font-size: 1.2rem;
   border-radius: 5px;
   margin: 2% 2% 2% 88%;
@@ -47,7 +50,7 @@ header p {
   justify-content: right;
 }
 .next-btn:hover {
-  background-color: chocolate;
+  background-color: #D2691E;
   transition: all 0.4s ease;
 }
 @media screen and (max-width: 768px) {
