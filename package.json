@@ -1,0 +1,11 @@
+{
+  "name": "picsum_photolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:balcerka/picsum-photogallery.git",
+  "author": "balcerka",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
